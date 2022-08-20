@@ -41,11 +41,11 @@ else:
 print("<<<thank you>>>")
 
 output:
-      items    quantity  cost 
-coffee      1    100.Rs 
-vadai       1    100.Rs
-sandwich    1    200.Rs
-coke        1    60.Rs
+items    quantity  cost 
+coffee      1     100.Rs 
+vadai       1     100.Rs
+sandwich    1     200.Rs
+coke        1     60.Rs
                   ***offers***
 (buy 1+ sandwich / 2+ vadai get coffee (1) just 50.Rs only)
 (buy atleast one in each items get 20% discount)

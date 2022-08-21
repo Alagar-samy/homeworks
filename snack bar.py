@@ -1,4 +1,5 @@
 #prices for the items
+#prices for the items
 price_of_coffee=100
 price_of_vadai=100
 price_of_sandwich=200
@@ -27,17 +28,19 @@ vadai=int(input("enter how many vadai you want = "))
 #cheching sandwich is greater than 1 or vadai is greater than 2
 if((sandwich>1) or (vadai>2)):
     total+=(sandwich*price_of_sandwich)+(coffee*new_price_of_coffee)+(coke*price_of_coke)+(vadai*price_of_vadai)
+    print("total bill is ",total)
 #checking customer buys atleast one of the each item 
 elif((sandwich>=1) and (coke>=1) and (coffee>=1) and (vadai>=1)):
     total+=(sandwich*price_of_sandwich)+(coffee*price_of_coffee)+(coke*price_of_coke)+(vadai*price_of_vadai)
     total=total-((total/10)*2)
+    print("total bill is ",total)
 else:
     total+=(sandwich*price_of_sandwich)+(coffee*price_of_coffee)+(coke*price_of_coke)+(vadai*price_of_vadai)
-if(total>1000):
-    total=total-((total/10)*2)
-    print("discounted total is ",total)
-else:
-    print("total is ",total)
+    if(total>1000):
+        total=total-((total/10)*2)
+        print("total bill is ",total)
+    else:
+        print("total bill is ",total)
 print("<<<thank you>>>")
 
 output:

@@ -8,7 +8,7 @@ print("menu")
 for menu in range (0,len(items)):
     print(str(items[menu]) + " " + str(price[menu]) + "Rs " + str(supply[menu]) + " available")
     print()
-for customer in range(0,2):
+for customer in range(0,10):
     print("customer " + str(customer+1) + "  arrives")
     for choice in range(0,len(items)):
         order =int(input("how many " + str(items[choice]) + " you want ="))

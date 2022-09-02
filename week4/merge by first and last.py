@@ -17,3 +17,13 @@ for index in range(0, len(input1)):
     else:
         break
 print("output",output)
+
+test case 1:
+
+enter the 1st string = abcd1234
+output a4,b3,c2,d1.
+
+test case 2:
+  
+enter the 1st string = alagar123456
+output a6,l5,a4,g3,a2,r1.

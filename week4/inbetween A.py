@@ -14,3 +14,26 @@ for i in range((len(input1) - 1),-1,-1):
 print("letters inbetween the first and last A are")
 for i in range((start+1),end):
     print(input1[i])
+    
+    
+test acse 1:
+   
+enter the letters = ABCEDEA
+letter A  fisrt occurs in the index of   0
+letter A  last occurs in the index of   6
+letters inbetween the first and last A are
+B
+C
+E
+D
+E
+
+test case 2:
+    
+enter the letters = ABcdae
+letter A  fisrt occurs in the index of   0
+letter A  last occurs in the index of   4
+letters inbetween the first and last A are
+B
+c
+d

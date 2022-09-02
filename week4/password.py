@@ -31,3 +31,28 @@ elif(((alphabets == len(password)) or (numbers == len(password)) or (special_cha
 else:
     print("password must contain altleast 8 characters including alphabets, numbers and special characters ")
     print("______________________________________________________________________________________________")
+
+    
+test case 1:
+       
+password must contain altleast 8 characters including alphabets, numbers and special characters 
+
+enter your password = alagar@123
+strong
+acceptable
+test case 2:
+enter your password = alagar@12345678samy
+very strong
+acceptable
+
+test case 3:
+    
+enter your password = 12345678
+weak !!
+not acceptable
+
+test case 4:
+    
+enter your password = alagar@13
+strong
+acceptable

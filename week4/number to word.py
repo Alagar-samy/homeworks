@@ -11,3 +11,13 @@ while(number > 0):
 # to print the word by loop staring with the length of the 'num' list
 for word in range((len(num)-1),-1,-1):
     print(a[num[word]],end=" ")
+    
+test case 1:
+ 
+enter the number = 156
+one five six
+
+test case 2:
+    
+enter the number = 123
+one two three

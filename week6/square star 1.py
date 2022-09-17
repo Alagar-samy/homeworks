@@ -8,3 +8,11 @@ def squarebox(width):
                 print(" ",end= " ")
         print()
 squarebox(width)
+
+output:
+   
+* * * * *
+*       *
+*       *
+*       *
+* * * * *

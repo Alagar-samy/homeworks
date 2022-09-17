@@ -6,3 +6,12 @@ for row in range(1,width+1):
         else:
             print(" ",end= " ")
     print()
+    
+    
+ output:
+   
+* * * * *
+*       *
+*       *
+*       *
+* * * * *

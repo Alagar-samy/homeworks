@@ -5,3 +5,11 @@ def square(width):
             print("*",end= " ")
         print()
 square(width)
+
+output:
+    
+* * * * * 
+* * * * *
+* * * * *
+* * * * *
+* * * * *

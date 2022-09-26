@@ -1,3 +1,6 @@
+#own problem
+
+
 import random
 points = 0
 attempts = 1

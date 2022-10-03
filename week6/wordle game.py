@@ -28,3 +28,35 @@ for word in range(0,len(words)):
     if(my_word != input_word):
         print("\33[1;31myou lose")
         break
+        
+      
+    output:
+        
+      
+    guess the word  1
+it is a 3 letter word
+enter your guess = cah
+ c a h
+enter your guess = can
+ c a n
+you won
+guess the word  2    
+it is a 3 letter word
+enter your guess = dpo
+ d p o
+enter your guess = doh
+ d o h
+enter your guess = dog
+ d o g
+you won
+guess the word  3    
+it is a 5 letter word
+enter your guess = ghjk
+invalid word       
+enter your guess = wavct
+ w a v c t
+enter your guess = wathc
+ w a t h c
+enter your guess = watch
+ w a t c h
+you won
